@@ -1,0 +1,20 @@
+body{
+    background-color: #3e3e3e;
+    color: white;
+    text-align: center;
+    /* распологает элементы по центру */
+}
+
+img{
+    border-radius: 30px;
+    width: 300px;
+}   
+
+#IDIMG {
+    transform: scale(1.5);
+    /* увеличивает размер */
+    transform: rotate(45deg);
+    /* переварачивает */
+    margin-top: 100px;
+    
+}
