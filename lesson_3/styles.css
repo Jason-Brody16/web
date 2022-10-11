@@ -1,0 +1,28 @@
+
+/* . - class */
+.size-up{
+    font-size: 50pt;
+}
+.rotate{
+    transform: rotate(45deg);
+}
+.rotate:hover{
+    transform: rotate(0deg);
+    
+}
+.grey-cube{
+    background-color: grey;
+    width: 200px;
+    height: 200px;
+    transition: 2s;
+    margin-top: 50px;
+}
+.grey-cube:hover{
+    margin-top: 0px;
+    background-color: red;
+}
+
+/* # - id */
+#red{
+    color:red
+}

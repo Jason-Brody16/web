@@ -1,0 +1,43 @@
+#avatar{
+    border-radius: 100%;
+    width: 250px;
+    float: left;
+}
+
+body{
+    background: #202020;
+    color:aliceblue;
+    transition: 1s;
+    padding: 20px;
+}
+
+header{
+    height: 260px;
+    background: #292929;
+    padding: 10px;
+}
+main{
+    background: #292929;
+    padding: 20px;
+    padding-top: 10px;
+}
+footer{
+    background: #292929;
+    padding: 20px;
+    padding-top: 10px;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: aliceblue;
+    border-width: 7px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+a:hover{
+    transition: 1s;
+    color: aqua;
+}
