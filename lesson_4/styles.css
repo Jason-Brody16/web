@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background: #013a33;
+    color:aliceblue;
+    font-family: 'Roboto',  sans-serif;
+}
+
+.btn {
+    background: #ff0000;
+    background-image: -webkit-linear-gradient(top, #ff0000, #b82b2b);
+    background-image: -moz-linear-gradient(top, #ff0000, #b82b2b);
+    background-image: -ms-linear-gradient(top, #ff0000, #b82b2b);
+    background-image: -o-linear-gradient(top, #ff0000, #b82b2b);
+    background-image: linear-gradient(to bottom, #ff0000, #b82b2b);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 27px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+    transition: all 2s;
+  }
+
+
+header {
+    background-color: #ff0000;
+    opacity: .2;
+    width: 100%;
+    opacity: 0.5;
+    /* rgba( r, g, b, прозрачность */
+    /* background-color: rgba() */
+}
+
+.div{
+    background: #000000 url('good-morning.gif') no-repeat center / cover;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.warning {
+    background-color: deeppink;
+}
+
+.warning::before{
+    content: "123";
+}
+.warning::after{
+    content: "456";
+}
+
+.info{
+    background-color: cornflowerblue;
+}
+
+.rectangle {
+    height: 100px;
+    width: 200px;
+}
+.rectangle h1{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
