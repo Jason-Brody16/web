@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Island+Moments&family=Roboto&display=swap');
+
+body{
+    background-color: white;
+}
+
+.fig1{
+    position: absolute;
+    width: 44px;
+    height: 41px;
+    left: 46px;
+    top: 38px;
+    
+    background: #FF6464;
+}
+.fig2{
+    position: absolute;
+    width: 98px;
+    height: 56px;
+    left: 101px;
+    top: 38px;
+
+    background: #FF6464;
+}
+
+.main1{
+    position: absolute;
+    width: 583px;
+    height: 82px;
+    left: 412px;
+    top: 209px;
+
+    background: #647DFF;
+}
+.main2{
+    position: absolute;
+    width: 425px;
+    height: 54px;
+    left: 414px;
+    top: 299px;
+
+    background: #647DFF;
+}
+.main3{
+    position: absolute;
+    width: 71px;
+    height: 29px;
+    left: 233px;
+    top: 217px;
+    background: #647DFF;
+}
+
+.footer-fig1{
+    position: absolute;
+    width: 264px;
+    height: 37px;
+    left: 405px;
+    top: 405px;
+
+    background: #9DFF70;
+}
+.footer-fig2{
+    position: absolute;
+    width: 255px;
+    height: 47px;
+    left: 720px;
+    top: 405px;
+
+    background: #9DFF70;
+}
+.footer-fig3{
+    position: absolute;
+    width: 122px;
+    height: 43px;
+    left: 1011px;
+    top: 405px;
+
+    background: #9DFF70;
+}
+.footer-fig4{
+    position: absolute;
+    width: 647px;
+    height: 34px;
+    left: 405px;
+    top: 555px;
+
+    background: #9DFF70;
+}

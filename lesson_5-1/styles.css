@@ -1,0 +1,18 @@
+.other td{
+    color: gold;
+}
+
+table .phone::before{
+    content: "😎";
+}
+
+table .price::before{
+    content: "🤟";
+}
+
+td, th {
+    border: 1px solid
+}
+table{
+    border-collapse: collapse;
+}
